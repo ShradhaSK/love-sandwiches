@@ -74,7 +74,7 @@ def update_worksheet(data, worksheet):
     Receives list of integer to be added to the worksheet
     updates the relevant worksheet with the data provided
     """
-    print(f"Udating {worksheet} worksheet... \n")
+    print(f"Updating {worksheet} worksheet... \n")
     worksheet_to_update = SHEET.worksheet(worksheet)
     worksheet_to_update.append_row(data)
     print(f"{worksheet} updated successfully!\n")
